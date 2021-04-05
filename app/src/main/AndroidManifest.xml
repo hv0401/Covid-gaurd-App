@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hvd.yourgaurd">
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/shielddd"
+        android:label="@string/Your_Gaurd"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.hvd.yourgaurd.maskvidActivity"></activity>
+        <activity android:name="com.hvd.yourgaurd.maskActivity" />
+        <activity android:name="com.hvd.yourgaurd.trackerrActivity" />
+        <activity android:name="com.hvd.yourgaurd.livenewsActivity" />
+        <activity android:name="com.hvd.yourgaurd.newsmainActivity" />
+        <activity android:name="com.hvd.yourgaurd.BuyremediesActivity" />
+        <activity android:name="com.hvd.yourgaurd.dubaividActivity" />
+        <activity android:name="com.hvd.yourgaurd.fittakvidActivity" />
+        <activity android:name="com.hvd.yourgaurd.babavidActivity" />
+        <activity android:name="com.hvd.yourgaurd.yogaActivity" />
+        <activity android:name="com.hvd.yourgaurd.boostimmuneActivity" />
+        <activity android:name="com.hvd.yourgaurd.aboutActivity" />
+        <activity android:name="com.hvd.yourgaurd.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>
